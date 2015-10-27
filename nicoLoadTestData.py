@@ -14,7 +14,6 @@ Read the test csv file and returns a dictionary containing the test images as ar
 		"90" 		: [...], <-- array of pixel values for the rotation by 90* to the right of the test image.
 		"180"		: [...], <-- array of pixel values for the rotation by 180* of the test image.
 		"270"		: [...], <-- array of pixel values for the rotation by 270* to the right of the test image.
-		"DiagMirror": [...] <-- array of pixel values for the mirrored image along the diagonal.
 	},
 	"image ID 2" : {
 		...
@@ -39,7 +38,6 @@ def getTestData():
 	        test_inputs[test_input[0]]['90'] = get90(test_input_no_id, 48, 48)
 	        test_inputs[test_input[0]]['180'] = get180(test_input_no_id)
 	        test_inputs[test_input[0]]['270'] = get270(test_input_no_id, 48, 48)
-	        test_inputs[test_input[0]]['DiagMirror'] = getDiagonalMirror(test_input_no_id, 48, 48)
 
 	print "done loading test data."
 	print len(test_inputs)
@@ -81,21 +79,10 @@ def get270 (image_array, image_width, image_height):
 
 
 """
-Returns the image array mirrored along the diagonal of the picture.
-@param image_array - the array pixel values for the image.
-@param image_width - the number of 'columns' of pixels in the image.
-@param image_height - the number of 'lines' of pixels in the image.
-@return the transpose of the 2D array corresponding to the image.
-"""
-def getDiagonalMirror (image_array, image_width, image_height):
-	return np.asarray(image_array).reshape(image_height, image_width).T.ravel()
-
-"""
 uncomment to test
 """
 #image = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16]
 #print get180(image)
 #print get90(image, 4, 4)
 #print get270(image, 4, 4)
-#print getDiagonalMirror(image, 4, 4)
 
