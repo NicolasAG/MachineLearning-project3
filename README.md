@@ -15,6 +15,7 @@ Python requirements:
 	csv
 	pickle
 	numpy
+	sklearn
 	...
 
 
