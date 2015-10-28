@@ -13,21 +13,16 @@ These are the algorithm we used:
 Python requirements:
 
 	csv
-	idx2numpy
+	pickle
+	numpy
 	...
 
 
 File structure requirements:
 ```
-	data_and_scripts/
-	   test_inputs.csv
-	   train_inputs.csv
-	   train_outputs.csv
-	   MNIST/
-	       t10k-images.idx3-ubyte
-	       t10k-labels.idx1-ubyte
-	       train-images.idx3-ubyte
-	       train-labels.idx3-ubyte
+	obj/
+	   test.pkl
+	   train.pkl
 ```
 
 # Authors:
