@@ -16,6 +16,8 @@ Python requirements:
 	pickle
 	numpy
 	sklearn
+	scipy
+	matplotlib
 	...
 
 
@@ -25,6 +27,16 @@ File structure requirements:
 	   test.pkl
 	   train.pkl
 ```
+
+
+# To run the SVM algorithm:
+
+Check nicoSVM for parameter selection, and when ready run the following command:
+
+```
+>>> python nicoSVM.py
+```
+
 
 # Authors:
  - Andres Felipe Rincón
