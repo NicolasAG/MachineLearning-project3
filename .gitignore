@@ -1,3 +1,4 @@
 *.pyc
 data_and_scripts/*
+obj/*
 
