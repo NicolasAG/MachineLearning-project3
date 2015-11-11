@@ -51,7 +51,7 @@ Python requirements:
             train.pkl
     ```
 
-    + Check nicoSVM for parameter selection, and when ready run the following command: ```>>> python nicoSVM.py```
+    + Check nicoSVM for parameter selection, and when ready run the following command: ```python nicoSVM.py```
 
 
  - Neural Network:
