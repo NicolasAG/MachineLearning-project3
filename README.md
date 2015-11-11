@@ -12,30 +12,40 @@ These are the algorithm we used:
 
 Python requirements:
 
-	csv
-	pickle
-	numpy
-	sklearn
-	scipy
-	matplotlib
-	...
+    csv
+    pickle
+    numpy
+    sklearn
+    scipy
+    matplotlib
+    ...
 
 
 File structure requirements:
 ```
-	obj/
-	   test.pkl
-	   train.pkl
+    obj/
+        test.pkl
+        train.pkl
 ```
 
 
-# To run the SVM algorithm:
+# To run the algorithms:
 
-Check nicoSVM for parameter selection, and when ready run the following command:
+ - Logistic Regression:
+    
+    Use Jupyter Notebook to view the following file: `logisticRegression.ipynb`
 
-```
->>> python nicoSVM.py
-```
+
+ - SVM:
+
+    Check nicoSVM for parameter selection, and when ready run the following command:
+
+    ```
+    >>> python nicoSVM.py
+    ```
+
+ - Neural Network:
+
 
 
 # Authors:
