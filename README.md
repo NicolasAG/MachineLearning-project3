@@ -51,10 +51,19 @@ Python requirements:
             train.pkl
     ```
 
-    + Check nicoSVM for parameter selection, and when ready run the following command: ```python nicoSVM.py```
+    + Check nicoSVM.py for parameter selection, and when ready run the following command: ```python nicoSVM.py```
 
 
  - Neural Network:
+
+    + File structure requirements:
+    ```
+        ryan_NN.py
+        train_outputs.npy
+        train_inputs.npy
+    ```
+
+    + Check ryan_NN.py for parameter selection, and when ready run the following command: ```python ryan_NN.py```
 
 
 
