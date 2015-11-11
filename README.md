@@ -21,28 +21,38 @@ Python requirements:
     ...
 
 
-File structure requirements:
-```
-    obj/
-        test.pkl
-        train.pkl
-```
-
-
 # To run the algorithms:
 
  - Logistic Regression:
+
+    + File structure requirements:
+    ```
+        logisticRegression.ipynb
+        test_inputs.csv
+        train_inputs.csv
+        train_outpus.csv
+    ```
     
-    Use Jupyter Notebook to view the following file: `logisticRegression.ipynb`
+    + Use Jupyter Notebook to view the following file: `logisticRegression.ipynb`
 
 
  - SVM:
-
-    Check nicoSVM for parameter selection, and when ready run the following command:
-
+    
+    + File structure requirements:
     ```
-    >>> python nicoSVM.py
+        nicoLoadTestData.py
+        nicoSVM.py
+        data_and_scripts/
+            test_inputs.csv
+            train_inputs.csv
+            train_outpus.csv
+        obj/
+            test.pkl
+            train.pkl
     ```
+
+    + Check nicoSVM for parameter selection, and when ready run the following command: ```>>> python nicoSVM.py```
+
 
  - Neural Network:
 
